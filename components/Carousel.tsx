@@ -19,7 +19,7 @@ export default function Carousel() {
     setCurrentIndex((prevIndex) => (prevIndex === images.length - 1 ? 0 : prevIndex + 1));
   };
 
-  const goToSlide = (index) => {
+  const goToSlide = (index:number) => {
     setCurrentIndex(index);
   };
 
