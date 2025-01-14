@@ -8,6 +8,11 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        Jost: ["Jost", "serif"],
+        Lobster: ["Lobster", "serif"],
+        Pacifico: ["Pacifico", "serif"]
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
